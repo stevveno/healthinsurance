@@ -1,1 +1,0 @@
-chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/content-scripts/language-switch.js
