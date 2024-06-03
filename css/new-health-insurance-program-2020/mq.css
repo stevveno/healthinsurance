@@ -1,0 +1,70 @@
+@media ( min-width: 360px) {
+    header .box a.medium {
+        display: flex;
+    }
+    header .box a.micro {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+    .box {
+        padding: 0 50px;
+    }
+    header .box svg {
+        width: 200px;
+    }
+    header .box a {
+        font-size: 16px;
+        background-color: #0970C5;
+    }
+    #main {
+        padding: 70px 0 90px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    #main .cta {
+        padding: 50px;
+    }
+    #main .cta .header {
+        font-size: 30px;
+    }
+    #quiz {
+        padding: 90px 0;
+    }
+    #quiz form {
+        margin-top: 30px;
+        padding: 40px;
+    }
+    #quiz .counter p {
+        font-size: 16px;
+    }
+    #quiz .question {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 20px !important;
+    }
+    h1 {
+        font-size: 50px !important;
+    }
+    h2 {
+        font-size: 40px !important;
+    }
+    #main .cta {
+        padding: 60px !important;
+    }
+    #main .cta .header {
+        font-size: 40px !important;
+    }
+}
